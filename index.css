@@ -1,0 +1,18 @@
+body{
+    min-height: 100vh;
+    min-width: 100vw;
+    margin: 0;
+    background: #9E9E9E;
+    overflow: hidden;
+}
+#circleCtn{
+    border: 2px solid black;
+    background: white;
+    position: relative;
+}
+#circle {
+    background: #9E9E9E;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+}
