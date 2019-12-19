@@ -2,9 +2,9 @@ let circleCtn = document.querySelector('#circleCtn');
 let circle = document.querySelector('#circle');
 
 const getKeyAndMove = (e) => {				
-    const key_code = e.which || e.keyCode;
+    const keyCode = e.which || e.keyCode;
 
-    switch(key_code){
+    switch(keyCode){
         case 37: 
             moveLeft();
             break;
